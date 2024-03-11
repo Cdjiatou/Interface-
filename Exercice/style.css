@@ -1,0 +1,84 @@
+
+body{
+    margin-top: 10px;
+    font-family: sans-serif;
+    font-style :italic;
+    background:#f0f0ea;
+    min-height: 100vh;
+    margin-top: 40px;
+    }
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+  
+    background:white;
+    width: 350px;
+    height:auto;
+    text-align: center;
+    padding: 15px;
+    
+}
+.image{
+    width :100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image img{
+    height: 100px;
+    width: 100px;
+    border-radius: 60%;
+}
+
+.connect{
+    text-align: center;
+    font-size: 36px;
+}
+
+input{
+    width: 80%;
+    border: 1px solid #999;
+}
+
+.input input{
+    text-align: left;
+    height: 35px;
+    border-radius: 100px;
+    padding-left: 15px;
+}
+.forget{
+    text-align:right;
+    font-size: 18px;
+    font-weight: normal;
+}
+.login{
+    color: aliceblue;
+background-color: orangered;
+border-radius: 100px;
+height: 40px;
+width: 95%;
+}
+.account span{
+    font-size: 18px;
+    color: chocolate;
+}
+.account{
+    text-align: center;
+}
+.label label{
+    text-align: left;
+}
+p{
+    text-align: left;
+}
+
+.input {
+    margin-left: 30px;
+    font-size: 30px;
+}
